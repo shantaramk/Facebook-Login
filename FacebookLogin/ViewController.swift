@@ -15,7 +15,7 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+         
         //creating button
         let loginButton = FBSDKLoginButton(type: .roundedRect)
         let parameters = ["public_profile","email"]
