@@ -24,10 +24,10 @@ extension LoginViewController: FacebookLoginDelegate {
         //call Facebook Login API
     }
     
-    func pushToFacebookView() {
-        let facebookLogin = FacebookLoginInteractor.shared
-        facebookLogin.delegate = self
-        facebookLogin.view = self
-        facebookLogin.pushToFacebookView()
-    }
-}
+      func pushToFacebookView() {
+          let facebookLogin = FacebookLoginInteractor.shared
+          facebookLogin.delegate = self
+          facebookLogin.view = self
+          facebookLogin.pushToFacebookView()
+     }
+ }
