@@ -29,5 +29,4 @@ extension LoginViewController: FacebookLoginDelegate {
           facebookLogin.delegate = self
           facebookLogin.view = self
           facebookLogin.pushToFacebookView()
-     }
- }
+     }}
