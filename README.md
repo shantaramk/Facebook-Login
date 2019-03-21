@@ -7,7 +7,9 @@ FacebookLoginInteractor.shared.clearSession()
 
 2.
 
+
 @IBAction func signInWithFacebookButtonClick(_ sender: Any) {
+
          pushToFacebookView()
  }
  
@@ -17,6 +19,7 @@ FacebookLoginInteractor.shared.clearSession()
 // MARK: - Facebook Login
 
 extension LoginViewController: FacebookLoginDelegate {
+
     func didLogInWithUserInformation(facebookId: String, accessToken: String) {
         //call Facebook Login API
     }
